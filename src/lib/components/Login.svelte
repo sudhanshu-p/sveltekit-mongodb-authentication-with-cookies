@@ -113,4 +113,11 @@
     .submit-btn:hover {
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
+
+    @media (max-width: 700px) {
+        .email, .username, .password {
+            display: flex;
+            flex-direction: column;
+        }
+    }
 </style>
